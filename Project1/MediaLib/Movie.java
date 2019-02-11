@@ -1,17 +1,17 @@
 
 /**
- * Write a description of class Song here.
+ * Write a description of class Movie here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Song
+public class Movie
 {
     // instance variables - replace the example below with your own
     private int rating;
     private String title;
     
-    public Song()
+    public Movie()
     {
         // initialise instance variables
         rating = 0;

@@ -1,17 +1,17 @@
 
 /**
- * Write a description of class Song here.
+ * Write a description of class Book here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Song
+public class Book
 {
     // instance variables - replace the example below with your own
-    private int rating;
+    private double rating;
     private String title;
     
-    public Song()
+    public Book()
     {
         // initialise instance variables
         rating = 0;
@@ -28,13 +28,14 @@ public class Song
         return title;
     }
     
-    public void setRating (int rate)
+    public void setRating (double rate)
     {
         rating = rate;
     }
     
-    public int getRating()
+    public double getRating()
     {
         return rating;
     }
 }
+
