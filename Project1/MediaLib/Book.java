@@ -10,6 +10,8 @@ public class Book
     // instance variables - replace the example below with your own
     private double rating;
     private String title;
+    private double pages;
+    public static int numBooks;
     
     public Book()
     {
@@ -36,6 +38,19 @@ public class Book
     public double getRating()
     {
         return rating;
+    }
+    
+    public Book(String title, double pages, int rating)
+    {
+        this.title = title;
+        this.pages = pages;
+        this.rating = rating;
+        numBooks = numBooks + 1;
+    }
+    
+    public double getPages()
+    {
+        return pages;
     }
 }
 
